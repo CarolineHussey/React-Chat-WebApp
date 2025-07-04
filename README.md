@@ -1,12 +1,7 @@
-# React + Vite
+#React Chat WebApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple multi-route local web app built with React as part of the 'React - The Complete Guide 2024' by Maximillian SchwartzMuller on Udemy. This course is a React course so React code is walked through while CSS code is provided.
 
-Currently, two official plugins are available:
+Use npm install & npm run dev to set up the local environment.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The backend used in this app is the sample backend provided as part of the course content. Here is the link to the back end repository: https://github.com/academind/react-complete-guide-code/blob/zz-reactjs-summary-updated/extra-files/dummy-backend.zip.

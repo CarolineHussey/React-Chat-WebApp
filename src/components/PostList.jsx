@@ -6,20 +6,6 @@ import { useLoaderData } from "react-router-dom";
 function PostList() {
   const posts = useLoaderData();
 
-  const [error, setError] = useState(null);
-
-  /* async function handleAddPost(newPostData) {
-    setError(null);
-    try {
-      if (!response.ok) {
-        throw new Error("Failed to add post.");
-      }
-      setPosts((prevPosts) => [newPostData, ...prevPosts]);
-    } catch (err) {
-      setError(err.message || "Something went wrong!");
-    }
-  }*/
-
   return (
     <>
       {posts.length > 0 && (
